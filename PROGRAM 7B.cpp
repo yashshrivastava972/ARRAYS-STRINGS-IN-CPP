@@ -1,3 +1,11 @@
+// NAME: YASH SHRIVASTAVA
+// PRN: 24070123137
+// BATCH: E&TC-B2
+// TITLE: ARRAY SEARCH - NUMBER THAT NEEDS TO BE SEARCHED (EXPERIMENT: 7B).
+
+
+// CODE: 
+
 #include <iostream>
 using namespace std;
 
