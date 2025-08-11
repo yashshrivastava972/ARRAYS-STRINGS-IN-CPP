@@ -3,20 +3,23 @@
 // BATCH: E&TC-B2
 // TITLE: CONCATENATION OF STRINGS (EXPERIMENT: 7H)
 
-
 // CODE: 
 
 #include <iostream>
 using namespace std;
 
 int main(){
-   string str;
+   string str1,str2,str3;
    cout<<"Enter a String: ";
-   cin>>str;
-   cout<<str<<endl;
+   cin>>str1;
+   cout<<"Enter a String for Concatenation : ";
+   cin>>str2;
+   str3=str1 + " " + str2; 
+   cout<<str3;
 }
 
 // OUTPUT:
 
-// Enter a String: YSHRIVASTAVA
-// YSHRIVASTAVA
+// Enter a String: YASH
+// Enter a String for Concatenation : SHRIVASTAVA
+// YASH SHRIVASTAVA
