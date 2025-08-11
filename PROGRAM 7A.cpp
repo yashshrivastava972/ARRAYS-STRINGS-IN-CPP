@@ -3,7 +3,6 @@
 // BATCH: E&TC-B2
 // TITLE: ARRAYS IN C++ (EXPERIMENT: 7A)
 
-
 // CODE: 
 
 #include <iostream>
