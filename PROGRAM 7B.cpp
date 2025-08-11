@@ -3,7 +3,6 @@
 // BATCH: E&TC-B2
 // TITLE: ARRAY SEARCH - NUMBER THAT NEEDS TO BE SEARCHED (EXPERIMENT: 7B)
 
-
 // CODE: 
 
 #include <iostream>
