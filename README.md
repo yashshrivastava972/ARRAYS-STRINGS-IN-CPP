@@ -1,4 +1,4 @@
-# Aim: To study and implement C++ Arrays and Strings #
+# Aim: To Study and Implement C++ Arrays and Strings. #
 
 # Tool: VS CODE.
 
