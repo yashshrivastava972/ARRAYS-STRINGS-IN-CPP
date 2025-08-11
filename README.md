@@ -23,11 +23,17 @@ The above statement will take the 10th element from the array named arr and assi
 
 Key Points:
 •	In C++, an array is a variable that can store multiple values of the same type. 
+
 •	With a limited number of objects, we can use regular variables (v1, v2, v3,..), but when we need to hold many instances, managing them with normal variables becomes challenging. To represent numerous instances in one variable, we use an array.
+
 •	The array's indexes begin at 0. Meaning that the first item saved at index 0 is x[0].
+
 •	The final element of an array with size n is kept at index (n-1). This example's final element is x[5].
+
 •	An array's elements have sequential addresses. Consider the scenario where x[0beginning ]'s address is 2120.
+
 •	The address of the subsequent element, x[1], will then be 2124, followed by x[2], 2128, and so forth.
+
 •	Each element in this case has a four-fold increase in size. This is due to the fact that int has a 4 byte capacity.
 
 Strings:
