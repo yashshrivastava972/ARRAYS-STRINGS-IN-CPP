@@ -10,17 +10,13 @@
 using namespace std;
 
 int main(){
-   string str1,str2,str3;
+   string str;
    cout<<"Enter a String: ";
-   cin>>str1;
-   cout<<"Enter a String for concatenation : ";
-   cin>>str2;
-   str3=str1 + " " + str2; 
-   cout<<str3;
+   cin>>str;
+   cout<<str<<endl;
 }
 
 // OUTPUT:
 
-// Enter a String: YASH
-// Enter a String for concatenation : SHRIVASTAVA
-// YASH SHRIVASTAVA
+// Enter a String: YSHRIVASTAVA
+// YSHRIVASTAVA
