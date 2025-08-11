@@ -51,7 +51,7 @@ Character arrays do not offer many inbuilt functions to manipulate strings.
 # Algorithms:
 
 ## For Arrays :
-1. Algorithm: Sum and Average of N Numbers
+i. Algorithm: Sum and Average of N Numbers
 
 1. Start
 2. Read n → number of elements.
@@ -66,7 +66,7 @@ Character arrays do not offer many inbuilt functions to manipulate strings.
 9. Display avg.
 10. End.
 
-2. Algorithm: Find Maximum and Minimum in an Array
+ii. Algorithm: Find Maximum and Minimum in an Array
 
 1. Start
 2. Read n → number of elements.
@@ -85,7 +85,7 @@ Character arrays do not offer many inbuilt functions to manipulate strings.
 10. End.
 
 ## For Strings :
-1. Algorithm: Reverse a String
+i. Algorithm: Reverse a String
 
 1. Start
 2. Declare a string variable str and an integer length.
@@ -96,7 +96,7 @@ Character arrays do not offer many inbuilt functions to manipulate strings.
    6.1 Display str[i] (character at position i).
 7. End.
 
-2. Algorithm: Check if a String is a Palindrome
+ii. Algorithm: Check if a String is a Palindrome
 
 1. Start
 2. Declare variables:
