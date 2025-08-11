@@ -3,7 +3,6 @@
 // BATCH: E&TC-B2
 // TITLE: REVERSE OF AN ARRAY (EXPERIMENT: 7C)
 
-
 // CODE: 
 
 #include <iostream>
