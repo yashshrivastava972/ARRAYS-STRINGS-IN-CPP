@@ -51,9 +51,68 @@ Character arrays do not offer many inbuilt functions to manipulate strings.
 # Algorithms:
 
 ## For Arrays :
+1. Algorithm: Sum and Average of N Numbers
 
+1. Start
+2. Read n → number of elements.
+3. Initialize sum = 0.
+4. Declare an array arr of size n.
+5 Display: "Enter elements".
+6. Repeat for i = 0 to n-1
+   6.1 Read arr[i]
+   6.2 Add arr[i] to sum
+7. Calculate avg = sum / n (use float division).
+8. Display sum.
+9. Display avg.
+10. End.
 
+2. Algorithm: Find Maximum and Minimum in an Array
 
+1. Start
+2. Read n → number of elements.
+3. Declare array arr of size n.
+4. Display: "Enter n elements".
+5. Repeat for i = 0 to n-1
+  5.1 Read arr[i]
+6. Initialize:
+   max = arr[0]
+   min = arr[0]
+7. Repeat for i = 1 to n-1
+  7.1 If arr[i] > max, then max = arr[i]
+  7.2 If arr[i] < min, then min = arr[i]
+8. Display: max as "Maximum element"
+9. Display: min as "Minimum element"
+10. End.
 
+## For Strings :
+1. Algorithm: Reverse a String
 
+1. Start
+2. Declare a string variable str and an integer length.
+3. Display: "Enter a String".
+4. Read str (note: input stops at space).
+5. Find length of string: length = str.length().
+6. Repeat for i = length - 1 down to 0
+   6.1 Display str[i] (character at position i).
+7. End.
 
+2. Algorithm: Check if a String is a Palindrome
+
+1. Start
+2. Declare variables:
+   str (string)
+   length (integer)
+   matchCount (integer, initially 0)
+3. Display: "Enter a String".
+4. Read str (only reads until space).
+5. Find length of string: length = str.length().
+6. Repeat for i = 0 to length - 1
+   6.1 Compare str[i] with str[length - 1 - i].
+   6.2 If equal → increment matchCount.
+7. Check:
+   If matchCount == length → Display "It is a Palindrome".
+   Else → Display "It is not a Palindrome".
+8. End.
+
+# Conclusion:
+By studying and implementing C++ arrays and strings, we learned how to store and manipulate multiple data elements efficiently. Arrays allow handling fixed-size collections of elements of the same type, while strings enable working with sequences of characters. Through practical programs, we applied concepts such as initialization, traversal, searching, and modification, gaining a better understanding of data storage, indexing, and built-in functions. This strengthens our problem-solving skills and forms a foundation for more complex data structures and algorithms in C++.
