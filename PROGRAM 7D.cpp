@@ -3,7 +3,6 @@
 // BATCH: E&TC-B2
 // TITLE: SUM AND AVERAGE OF ELEMENTS OF AN ARRAY (EXPERIMENT: 7D)
 
-
 // CODE: 
 
 #include <iostream>
