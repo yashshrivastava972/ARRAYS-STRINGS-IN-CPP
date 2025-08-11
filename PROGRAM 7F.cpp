@@ -3,7 +3,6 @@
 // BATCH: E&TC-B2
 // TITLE: DISPLAYING A STRING (EXPERIMENT: 7F)
 
-
 // CODE: 
 
 #include <iostream>
